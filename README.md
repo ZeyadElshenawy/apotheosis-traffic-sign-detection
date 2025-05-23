@@ -151,9 +151,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Team Work 
-Zeyad Elshenawy,
-Menna Yasser,
-Salsabil Ashraf
+## 👥 Contributors
+
+Thanks to the following people for their contributions:
+- [@contributor1](https://github.com/contributor1) – Image Acquisition, Color Space Transformation, Colorimetric Distribution Analysis
+- [@contributor2](https://github.com/contributor2) – Parameter Identification, Segmentation Implementation, Component Isolation 
+- [@ZeyadElshenawy](https://github.com/ZeyadElshenawy) – Spatial Relationship Analysis, Composite Mask Generation, Final Region Labeling, Visualization 
+
 ## Warning***
 **Note**: This implementation is designed for educational and research purposes. For production use in safety-critical applications, additional validation and testing are recommended.
