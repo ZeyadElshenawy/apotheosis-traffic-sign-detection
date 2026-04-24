@@ -147,12 +147,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 👥 Contributors
+## 👥 My Contribution
 
 This project was built by a three-person team for the Image Processing course:
 
-- **Menna Yasser Mohamed** — Image Acquisition, Color Space Transformation, Colorimetric Distribution Analysis
-- **Salsabil Ashraf** — Parameter Identification, Segmentation Implementation, Component Isolation
 - **[Zeyad Ahmed Elshenawy](https://github.com/ZeyadElshenawy)** — Spatial Relationship Analysis, Composite Mask Generation, Final Region Labeling, Visualization
 
 ## ⚠️ Note
