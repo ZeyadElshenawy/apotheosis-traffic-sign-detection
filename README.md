@@ -8,19 +8,14 @@
 ```
 apotheosis/
 ├── assets/
-│ └── traffic_sign.png # Sample image
-├── test/ # Test images folder
-│ ├── test1.png
-│ ├── test2.jpg
-│ └── ...
-├── output/ # Output images or result files
-├── TEAM.txt # Team members information
-├── test.ipynb # Notebook for testing code or parameters
-├── thresholds.json # Config file with detection/classification thresholds
-├── traffic_sign_detection.ipynb # Main notebook for traffic sign detection
-├── Traffic_Sign_Detection_Report.pdf # Final report summarizing methodology and results
+│   └── traffic_sign.png            # Sample image
+├── output/                         # Output images or result files
+├── TEAM.txt                        # Team members information
+├── test.ipynb                      # Notebook for testing code or parameters
+├── thresholds.json                 # Config file with detection/classification thresholds
+├── traffic_sign_detection.ipynb    # Main notebook for traffic sign detection
+└── Traffic_Sign_Detection_Report.pdf  # Final report summarizing methodology and results
 ```
-
 
 ---
 
@@ -50,6 +45,7 @@ Clone this repository:
 ```bash
 git clone https://github.com/ZeyadElshenawy/apotheosis-traffic-sign-detection.git
 cd apotheosis-traffic-sign-detection
+pip install -r requirements.txt
 ```
 
 ## 🚀 Quick Start
@@ -82,7 +78,7 @@ s_min_slider = widgets.IntSlider(min=0, max=255, step=1, value=s_min_default)
 v_min_slider = widgets.IntSlider(min=0, max=255, step=1, value=v_min_default)
 
 # Interactive processing
-interact(process_image, 
+interact(process_image,
          image=fixed(normalized_image),
          h_min=h_min_slider,
          s_min=s_min_slider,
@@ -138,10 +134,10 @@ The pipeline generates several types of output:
 - HSV threshold values
 - Processing parameters
 - Detailed sign information
-  
+
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -153,10 +149,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Contributors
 
-Thanks to the following people for their contributions:
-- [@contributor1](https://github.com/contributor1) – Image Acquisition, Color Space Transformation, Colorimetric Distribution Analysis
-- [@contributor2](https://github.com/contributor2) – Parameter Identification, Segmentation Implementation, Component Isolation 
-- [@ZeyadElshenawy](https://github.com/ZeyadElshenawy) – Spatial Relationship Analysis, Composite Mask Generation, Final Region Labeling, Visualization 
+This project was built by a three-person team for the Image Processing course:
 
-## Warning***
-**Note**: This implementation is designed for educational and research purposes. For production use in safety-critical applications, additional validation and testing are recommended.
+- **Menna Yasser Mohamed** — Image Acquisition, Color Space Transformation, Colorimetric Distribution Analysis
+- **Salsabil Ashraf** — Parameter Identification, Segmentation Implementation, Component Isolation
+- **[Zeyad Ahmed Elshenawy](https://github.com/ZeyadElshenawy)** — Spatial Relationship Analysis, Composite Mask Generation, Final Region Labeling, Visualization
+
+## ⚠️ Note
+
+This implementation is designed for **educational and research purposes**. For production use in safety-critical applications, additional validation and testing are recommended.
